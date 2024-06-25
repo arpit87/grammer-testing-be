@@ -3,17 +3,11 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 name = "pypi"
 
-[[source]]
-url = "https://download.pytorch.org/whl/torch/"
-verify_ssl = true
-name = "pytorch"
-
-
 [packages]
 fastapi = "*"
 uvicorn = "*"
 httpx = "*"
-torch = {url = "https://download.pytorch.org/whl/cpu-cxx11-abi/torch-2.3.1%2Bcpu.cxx11.abi-cp39-cp39-linux_x86_64.whl"}
+torch = "*"
 gramformer = {git = "git+https://github.com/PrithivirajDamodaran/Gramformer.git"}
 spacy = "*"
 python-dotenv = "*"
