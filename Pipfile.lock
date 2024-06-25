@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "a9775d5fd9d6f84a3cda65ef5a90afbadbf4d98943aa44d28e730252710d78c8"
+            "sha256": "fd65c3b59bf00510e4ec6d5253e52950a25d636219168f2d2b4f00b3c3105b09"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -1744,6 +1744,9 @@
             "version": "==0.19.1"
         },
         "torch": {
+            "extras": [
+                "cpu"
+            ],
             "hashes": [
                 "sha256:07e9ba746832b8d069cacb45f312cadd8ad02b81ea527ec9766c0e7404bb3feb",
                 "sha256:224259821fe3e4c6f7edf1528e4fe4ac779c77addaa74215eb0b63a5c474d66c",
@@ -1766,7 +1769,6 @@
                 "sha256:f2357eb0965583a0954d6f9ad005bba0091f956aef879822274b1bcdb11bd308",
                 "sha256:ff60bf7ce3de1d43ad3f6969983f321a31f0a45df3690921720bcad6a8596cc4"
             ],
-            "index": "pypi",
             "markers": "python_full_version >= '3.8.0'",
             "version": "==2.3.1"
         },

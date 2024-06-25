@@ -8,7 +8,7 @@ fastapi = "*"
 uvicorn = "*"
 httpx = "*"
 gramformer = {git = "git+https://github.com/PrithivirajDamodaran/Gramformer.git"}
-torch = "*"
+torch = {version = "2.3.1", extras = ["cpu"]}
 python-dotenv = "*"
 spacy = "*"
 
